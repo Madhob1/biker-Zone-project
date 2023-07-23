@@ -7,14 +7,26 @@
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <!-- google font install -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800;900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .font-poppins{
+            font-family: font-family: 'Poppins', sans-serif;
+        }
+    </style>
 
 </head>
 
 <body>
-    <header>
+    <!-- header start -->
+    <header class="max-w-7xl mx-auto px-1 " >
         <nav>
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
+            <div class="navbar bg-base-100  ">
+                <div class="flex-1">
                     <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
@@ -24,7 +36,7 @@
                             </svg>
                         </label>
                         <ul tabindex="0"
-                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 ">
                             <li><a>Home</a></li>
                             <li><a>Shop</a></li>
                             <li><a>News</a></li>
@@ -34,14 +46,14 @@
                     <a class="btn btn-ghost normal-case text-xl">Biker Zone</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1">
+                    <ul class="menu menu-horizontal px-1 text-xl">
                         <li><a>Home</a></li>
                         <li><a>Shop</a></li>
                         <li><a>News</a></li>
                         <li><a>Contact</a></li>
                     </ul>
                 </div>
-                <div class="navbar-end">
+                <div class=" ">
                     <a class="btn bg-orange-500 hover:bg-[green] ">Log in</a>
                 </div>
             </div>
@@ -49,6 +61,15 @@
 
         </nav>
     </header>
+<!-- header end  -->
+<!-- hero section start  -->
+
+
+
+
+<!-- hero section end  -->
+
+
 </body>
 
 </html>
